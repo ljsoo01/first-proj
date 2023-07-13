@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dior</title>
+  <title>Dior 1</title>
   <!-- Tailwindcss CDN -->
   <script src="https://cdn.tailwindcss.com"></script>  
   <!-- Custom CSS -->
@@ -112,17 +112,34 @@
     <hr>
 
     <div class="px-5">
-      <li class="flex justify-between py-8 cursor-pointer">
-        <button class="text-sm">고객 지원</button>
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 9.4h-4.9V4.5a.6.6 0 10-1.2 0v4.9H4.5a.6.6 0 000 1.2h4.9v4.9a.6.6 0 001.2 0v-4.9h4.9a.6.6 0 100-1.2z" fill="currentColor"></path></svg>
+      <li class="py-8 cursor-pointer">
+        <label for="support" class="text-sm">고객 지원</label>
+        <input type="checkbox" name="" id="support" class="peer/support hidden">
+        <svg width="20" height="20" class="float-right" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 9.4h-4.9V4.5a.6.6 0 10-1.2 0v4.9H4.5a.6.6 0 000 1.2h4.9v4.9a.6.6 0 001.2 0v-4.9h4.9a.6.6 0 100-1.2z" fill="currentColor"></path></svg>
+      
+        <div id="dropdown" class="overflow-hidden hidden peer-checked/support:block">
+          <span>고객센터</span><br>
+          <span>배송 및 반품</span><br>
+          <span>FAQ</span>
+        </div>
       </li>
     </div>
     <hr>
 
     <div class="px-5">
-      <li class="flex justify-between py-8 cursor-pointer">
-        <button class="text-sm">디올 하우스</button>
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 9.4h-4.9V4.5a.6.6 0 10-1.2 0v4.9H4.5a.6.6 0 000 1.2h4.9v4.9a.6.6 0 001.2 0v-4.9h4.9a.6.6 0 100-1.2z" fill="currentColor"></path></svg>
+      <li class="justify-between py-8 cursor-pointer">
+        <label for="house" class="text-sm">디올 하우스</label>
+        <input type="checkbox" name="" id="house" class="peer/support hidden">
+        <svg width="20" height="20" class="float-right" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 9.4h-4.9V4.5a.6.6 0 10-1.2 0v4.9H4.5a.6.6 0 000 1.2h4.9v4.9a.6.6 0 001.2 0v-4.9h4.9a.6.6 0 100-1.2z" fill="currentColor"></path></svg>
+      
+        <div id="dropdown" class="overflow-hidden hidden peer-checked/support:block">
+          <span>법적 고지</span><br>
+          <span>개인정보처리방침</span><br>
+          <span>일반 판매 조건</span><br>
+          <span>윤리 및 규정 준수</span><br>
+          <span>디올 소셜미디어</span><br>
+          <span>채용 정보</span>
+        </div>
       </li>
     </div>
     <hr>
